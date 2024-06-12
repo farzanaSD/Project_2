@@ -1,0 +1,22 @@
+.footer{
+   display: flex;
+   justify-content: space-between;
+}.footer1{
+    display: flex;
+    gap: 10px;
+}.footer{
+    color: dimgray;
+}.form{
+    margin-top: 50px;
+   display: flex;
+}
+@media only screen and (max-width:844px) and (min-width:390px) {
+
+    .footer{
+        flex-direction: column;
+     }.footer1{
+        flex-direction: column;
+     }.form{
+        flex-direction: column;
+    }
+}
